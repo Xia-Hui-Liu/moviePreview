@@ -40,7 +40,7 @@ header {
 }
 
 hr {
-    border: 1px solid rgb(85, 119, 206); /* Adjust the border style as needed */
+    border: 1px solid rgb(85, 119, 206);
     margin: 10px 0;
 }
 
@@ -93,6 +93,7 @@ footer {
     padding: 15px
 }
 
+/* for medium screens */
 @media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
     .photo-container {
         height: 25vh;
@@ -116,13 +117,14 @@ footer {
     .horizontal-list {
         font-size: 1.4em;
         padding: 4px;
-        margin-left: 0; /* Remove left margin for horizontal list on small screens */
+        margin-left: 0; 
     }
     .horizontal-list li {
         margin-right: 50px; 
     }
 }
 
+/* for big screens */
 @media screen and (min-width: 1024px) {
     .photo-container {
         height: 30vh;
