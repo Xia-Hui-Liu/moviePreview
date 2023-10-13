@@ -105,15 +105,9 @@ footer {
         margin-right: 10px;
         margin-top: 15px;
     }
-    .content {
+    .content, #trailer, .references h3  {
         font-size: 1.4em;
     }
-    #trailer {
-        font-size: 1.4em;
-    }
-  .references h3 {
-    font-size: 1.4em;
-  }
     .horizontal-list {
         font-size: 1.4em;
         padding: 4px;
@@ -136,13 +130,7 @@ footer {
         margin-right: 20px;
         margin-top: 20px;
     }
-    .content {
+    .content, #trailer, .references h3  {
         font-size: 1.5em;
     }
-    #trailer {
-        font-size: 1.5em;
-    }
-  .references h3 {
-    font-size: 1.5em;
-  }
 }
